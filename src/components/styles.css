@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.nav-item {
+  text-decoration: none !important;
+}
+.dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+.navbar {
+  background-color: white !important;
+  color: #f43397 !important;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: stretch;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  border: #f43397 solid 0.15rem;
+}
+
+.navbar ul {
+  margin-left: 35px;
+
+  list-style: none;
+  display: flex;
+  gap: 0rem;
+}
+
+.banner {
+  height: 350px;
+  width: 1000px;
+  padding: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"],
+select {
+  margin-right: 100px;
+
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+h3 {
+  align-items: center;
+  justify-content: center;
+}
+
+#msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#msg-id {
+  background-color: rgb(245, 196, 196);
+  color: #f43397 !important;
+}
+.row {
+  padding-right: 5px;
+}
+.btn-outline-primary {
+  /* margin-top: 20px; */
+
+  padding-left: 10px !important;
+  padding-right: 0px !important;
+  /* margin-right:10px;
+margin-left: 10px; */
+  width: 110px;
+}
+
+.margin-id {
+  width: 190px !important;
+  height: 35px;
+  margin-right: 0px;
+  color: #f43397 !important;
+}
+
+.navbar-nav li a {
+  font-size: 19px;
+  margin-left: 10px;
+}
+.navbar-brand {
+  letter-spacing: 1px;
+  font-size: 2.2rem !important;
+  color: #f43397 !important;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.nav-link {
+  color: black !important;
+}
+.nav-link:hover {
+  color: #f43397 !important;
+}
+.dropbtn {
+  background-color: white !important;
+  color: #f43397;
+  padding: 16px;
+  font-size: 19px;
+  border: none;
+  border-top: #f43397 solid 0.1rem;
+  border-bottom: #f43397 solid 0.1rem;
+  margin-bottom: 20px;
+  margin-top: 2px;
+  align-items: center;
+
+  position: relative;
+  background-color: rgb(16, 15, 15);
+  min-width: 20%;
+  box-shadow: 0px 8px 16px 0px rgba(250, 16, 16, 0.2);
+  z-index: 1;
+  display: inline-block;
+  justify-content: center !important;
+}
+
+.dropbtn:hover {
+  border: black solid 0.1rem;
+  color: black;
+}
+
+/* footer css */
+
+.main-footer {
+  margin-top: 2px;
+  color: #f43397;
+  background-color: white;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: #f43397 solid 0.2rem;
+  border-bottom: #f43397 solid 0.2rem;
+}
+.mr-5 {
+  margin-left: 50px;
+  padding-right: 50px;
+}
